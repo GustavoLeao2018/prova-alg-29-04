@@ -65,3 +65,56 @@ def procura(matriz, linha=0, coluna=0, cont_uns=0):
         procura(matriz, linha=linha, coluna=coluna, cont_uns=cont_uns)
 
 procura(matriz)
+
+
+"""
+correção
+
+Varrer matriz
+se achar 1:
+    conta ilha
+se 
+
+se for 0: retorna
+senão: 
+pinta de 0
+recurção(x-1, y)
+recurção(x+1, y)
+recurção(x, y-1)
+recurção(x, y+1)
+
+
+floodfill
+""""
+
+
+def conta_ilha(matriz):
+    contador = 0
+    for i in range(len(matriz)):
+        for y in range(len(matriz[0])):
+            if matriz[x][y] == 1:
+                contador += 1
+                floodfill(matriz,x,y)
+    return contador
+
+def floodfill(matriz,x,y):
+    # testa se está na matriz
+    if x < 0 or y len(matriz): return 
+    if y < 0 or y len(metriz): return
+    #condição de parada
+    if matriz[x][y] == 0:return
+    # recurção
+    matriz[x][y]=0
+    floodfill(matriz,x-1,y)
+    floodfill(matriz,x+1,y)
+    floodfill(matriz,x,y+1)
+    floodfill(matriz,x,y-1)
+    
+    
+# custo de algoritimos
+
+    
+    
+    
+    
+    
