@@ -27,3 +27,13 @@ pesquisa(lista)
 print("Resposta lista de locais de trabalho:")
 for indice in range(len(lista)): 
     print (f"Pessoa: {indice} | Trabalho: {lista_opcoes[lista[indice]]}")
+
+    
+    """
+    bubble sort: n / n²
+    ordenação: n * log N
+    particionamento de dikstra 
+    
+    """
+    
+    
