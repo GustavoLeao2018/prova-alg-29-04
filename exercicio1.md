@@ -18,3 +18,9 @@ E desvantagens:
 - trabalha melhor com matrizes pequenas.
 - não necessita de memória externa ao contrario do merge que necessita para fazer as comparações das 
 sublistas criadas.
+
+---- 
+# Correção
+
+- estabilidade de chaves
+- garantia do tempo de execução
